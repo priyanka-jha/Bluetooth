@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivityForResult(on, 0);
                     Toast.makeText(MainActivity.this, "Bluetooth Turned on", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(MainActivity.this, "Already On", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Bluetooth Already On", Toast.LENGTH_SHORT).show();
                 }
             }
         });
