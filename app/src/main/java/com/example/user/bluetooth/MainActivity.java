@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 bluetoothAdapter.disable();
-                Toast.makeText(MainActivity.this, "Turned Off", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Bluetooth Turned Off", Toast.LENGTH_SHORT).show();
             }
         });
         visible.setOnClickListener(new View.OnClickListener() {
